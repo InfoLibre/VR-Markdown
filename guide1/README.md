@@ -34,7 +34,7 @@ Sur cette page, nous vous guiderons à travers les étapes de la création de vo
 Que vous soyez un enseignant cherchant à intégrer la réalité virtuelle dans votre salle de classe, un développeur web cherchant à créer des ressources éducatives interactives, ou simplement quelqu’un qui est curieux de la technologie de panorama 360°, nous espérons que vous trouverez cette page informative et utile. Bonne création !
 
 
-# [Partie 1 - Matériel préparatoire et prises de vues](https://maximer37.github.io/VR-Markdown/guide1/partie1/index.html)
+# [Partie 1 - Matériel préparatoire et prises de vues](https://maximefr37.github.io/VR-Markdown/guide1/partie1/index.html)
 
 
 ## En amont : La planification
@@ -219,7 +219,7 @@ En résumé, ce code crée une scène de réalité virtuelle avec un ciel textur
 
 
 
-# [Partie 2 - Navigation entre deux panoramas 360°](https://maximer37.github.io/VR-Markdown/guide1/partie2/index.html)
+# [Partie 2 - Navigation entre deux panoramas 360°](https://maximefr37.github.io/VR-Markdown/guide1/partie2/index.html)
 
 <img src="partie2/resources/image/panorama2.jpg" alt="premier panorama" height="auto" width="850">
 
@@ -286,7 +286,7 @@ Nous cherchons la ligne de code qui fait référence à la ***fleche*** , puis n
 
 
 
-# [Partie 3 - Animer un objet et insérer un texte](https://maximer37.github.io/VR-Markdown/guide1/partie3/index.html)
+# [Partie 3 - Animer un objet et insérer un texte](https://maximefr37.github.io/VR-Markdown/guide1/partie3/index.html)
 
 Ensuite, nous allons animer notre flèche pour qu'elle se déplace de haut en bas, afin de mieux indiquer la direction que prendra l'utilisateur, ainsi que l'ajout d'un disque.
 
@@ -408,7 +408,7 @@ Ensuite, nous pouvons modifier certains paramètres dans le mode inspecteur qui 
 Sur la gauche, nous sélectionnons le texte, puis nous choisissons le menu "Text" à droite, qui nous permettra de modifier différentes options pour personnaliser le texte selon nos préférences. Une fois les modifications effectuées, nous pouvons ensuite copier le code de la même manière que précédemment.
 
 
-# [Partie 4 - Implémentation d'une vidéo](https://maximer37.github.io/VR-Markdown/guide1/partie4/index.html)
+# [Partie 4 - Implémentation d'une vidéo](https://maximefr37.github.io/VR-Markdown/guide1/partie4/index.html)
 
 
 Pour débuter la lecture d'un fichier vidéo ou audio, une interaction est nécessaire pour les démarrer : ceux-ci sont bloqués par défaut. Ceci est dû à des préoccupations concernant notamment l'économie de bande passante. Dans notre situation, nous allons concevoir une nouvelle page HTML comportant un panneau avec l'inscription "click me" dessus. Ce panneau nous permettra d'interagir avec le site, déclenchant ainsi la lecture automatique de la vidéo. Nous utiliserons une seule ligne de code HTML pour créer ce panneau.

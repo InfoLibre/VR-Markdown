@@ -41,7 +41,7 @@ Que vous soyez un enseignant cherchant à intégrer la réalité virtuelle dans 
 
 La planification, définissant l'objet de la visite et le contenu qui devra s'afficher, est essentielle en amont de toute production. Ceci est plus simple à dire qu'à faire, mais il est essentiel de définir l'objectif de la visite et d'avoir une idée claire de *ce qui doit être montré*.
 
-Dans notre cadre, nous allons réaliser une viste virtuelle simple du terrain de sport de lycée Louis de Cormontaigne à Metz, se basant sur deux panoramas à 360°. Cette visite devra inclure des informations textuelles, des images, des vidéos, et des objets en 3 dimensions qui s'insèrent naturellement dans un panorama en 360°. Pour simplifier l'exemple, nous allons lier deux panoramas 360° entre eux pour permettre de simuler une ballade. Suivant la logique de navigation entre panoramas, l'orientation de l'utilisateur dans un panorama va avoir un impact: il est plus naturel quand on se déplace d'un point A à un point B que la vue lors de l'arrivée au point B suive une ligne droite issue du point A, afin de faire comprendre l'idée du mouvement. De même, l'ensemble des panoramas seront enrichis avec du contenu pédagogique sous diverses formes. Ce contenu doit s'afficher *à sa place* dans le panorama (par exemple le texte qui donne des informations sur un bâtiment doit flotter uniquement au-dessus de ce batiment).
+Dans notre cadre, nous allons réaliser une visite virtuelle simple du terrain de sport de lycée Louis de Cormontaigne à Metz, se basant sur deux panoramas à 360°. Cette visite devra inclure des informations textuelles, des images, des vidéos, et des objets en 3 dimensions qui s'insèrent naturellement dans un panorama en 360°. Pour simplifier l'exemple, nous allons lier deux panoramas 360° entre eux pour permettre de simuler une ballade. Suivant la logique de navigation entre panoramas, l'orientation de l'utilisateur dans un panorama va avoir un impact: il est plus naturel quand on se déplace d'un point A à un point B que la vue lors de l'arrivée au point B suive une ligne droite issue du point A, afin de faire comprendre l'idée du mouvement. De même, l'ensemble des panoramas seront enrichis avec du contenu pédagogique sous diverses formes. Ce contenu doit s'afficher *à sa place* dans le panorama (par exemple le texte qui donne des informations sur un bâtiment doit flotter uniquement au-dessus de ce bâtiment).
 
 Ceci explique l'importance d'une réflexion en amont, afin d'être sûr d'avoir toutes les images requises. Prendre une prise de vue manquante dans un deuxième temps risque expose l'opération à des changements brutaux de conditions de navigation (lumière ou météo différente par exemple) qui vont nuire à l'immersion.
 
@@ -59,10 +59,10 @@ Attention en particulier aux épineuses questions de droits à l'image et des co
 
 ### Prise des vues 360°
 
-Il est utile de bien plannifier en amont de toutes prises de vues les endroits où seront réalisés les photos.
+Il est utile de bien planifier en amont de toutes prises de vues les endroits où seront réalisés les photos.
 En extérieur, des outils comme Google Earth sont particulièrement utiles.
 
-![plannification](<partie2/resources/image/plan.jpg>)
+![planification](<partie2/resources/image/plan.jpg>)
 
 L'importation des images est le moment idéal pour modifier la résolution en 2880 pixels par 1440 pixels avec le logiciel de la caméra. Pour flouter les visages (question de droits à l'image), nous allons utiliser GIMP.
 
@@ -76,7 +76,7 @@ Importez toutes les images composant vos panoramas 360° dans GIMP au format JPE
 
 ### Réglages et corrections
 
-Effectuez des ajustements de couleur, de contraste et de netteté pour harmoniser les différents panoramas 360°. Vous pouvez également utiliser des outils de retouche pour éliminer les imperfections ou les éléments indésirables de certaines image.
+Effectuez des ajustements de couleur, de contraste et de netteté pour harmoniser les différents panoramas 360°. Vous pouvez également utiliser des outils de retouche pour éliminer les imperfections ou les éléments indésirables de certaines images.
 
 ### Exportation de panoramas
 
@@ -134,7 +134,7 @@ puis dans la rubrique ***page***
 
 
 
-enfin selectionner ***select branch*** puis ***Main***
+enfin sélectionner ***select branch*** puis ***Main***
 
 
 
@@ -380,10 +380,10 @@ ainsi que ce code également:
     position="-4.357112280120217 -2.5 6.709364543563392" rotation="-7.125016348901799 147.00000000000003 -8.013266132661394e-16">
 </a-plane>
     
-<a-entity id="Definition" text="value: Une oeuvre majeure du debut de ce XXeme siecle d`un sculpteur iconnu qui evoque la force, la reflexion et l`espoir. Cette sculpture 
-    capture l`instant de la projection vers le resultat. 
-    Elle est exposee devant les pistes d'athletisme pour inspirer tous les sportifs qui la contemplent. 
-    Il est possible que la feuille de vigne, ce voile de pudeur qui cache legerement quelque chose de genant sans le faire pleinement  disparaître veritablement est ete rajoute en post-production.
+<a-entity id="Definition" text="value: Une oeuvre majeure du début de ce XXeme siècle d`un sculpteur inconnu qui évoque la force, la réflexion et l`espoir. Cette sculpture 
+    capture l`instant de la projection vers le résultat. 
+    Elle est exposée devant les pistes d'athlétisme pour inspirer tous les sportifs qui la contemplent. 
+    Il est possible que la feuille de vigne, ce voile de pudeur qui cache légèrement quelque chose de gênant sans le faire pleinement disparaître véritablement, ait été rajoutée en post-production.
     ; align: center; width: 8.5; color: #ffffff" position="-3.40574 -1.93257 5.28767" 
     rotation="-7.125016348901799 147.00000000000003 -8.013266132661394e-16" visible="" scale="0.5 0.5 0.5">
 </a-entity>
@@ -426,7 +426,7 @@ Nous allons également incorporer une vidéo en utilisant cette commande.
 
 
 ````html
-<!-- composant pour implementer une video -->
+<!-- composant pour implémenter une video -->
 <a-video id="video" autoplayloop="true" src="./resources/video/Pirate.mp4" position="-11.98573 16.27849 9.43671" rotation="-1.2564964447218954 141.74632076859487 -0.038388172273765155" scale="15 15 15">
 </a-video>
 ````
